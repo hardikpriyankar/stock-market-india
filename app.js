@@ -11,6 +11,10 @@ app.listen(3100, () => {
     console.log("Server running on port 3100");
 });
 
+app.get('/', (req, res) => {
+    res.send('ci with travis');
+});
+
 // National Stock Exchange (NSE) APIS
 
 // Get the stock market status (open/closed) - JSON
