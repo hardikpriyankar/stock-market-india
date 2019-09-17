@@ -1,3 +1,5 @@
+![Build Status](https://travis-ci.org/hardikpriyankar/stock-market-india.svg?branch=test)
+
 # stock-market-india
 A npm package which fetches data from bombay & national stock exchange and provides an api to access it.
 
