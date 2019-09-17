@@ -1,8 +1,6 @@
-const expect = require('chai').expect
-const server = require('../app');
-// console.log("server ", server);
-describe('test', () => {
-    it('should return a string', () => {
-        expect('ci with travis').to.equal('!ci with travis');
+var assert = require('assert');
+describe('test', function() {
+    it('should return an array', function() {
+        assert(Array.isArray('a,b,c'.split(',')));
     });
-});
+})

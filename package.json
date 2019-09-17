@@ -29,6 +29,7 @@
     },
     "homepage": "https://github.com/maanavshah/stock-market-india#readme",
     "dependencies": {
+        "assert": "^2.0.0",
         "axios": "^0.18.1",
         "chai": "^4.2.0",
         "express": "^4.16.4",
